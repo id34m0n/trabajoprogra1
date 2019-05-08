@@ -1,15 +1,15 @@
-def mas_larga(lista):
+def mas_larga(lg):
     palabra = ""
     largo = 0
-    for i in lista:
-        if (len(i) > largo):
+    for i in lg:
+        if len(i) > largo:
             palabra = i
             largo = len(i)
     return palabra
 
 print("A) Calcular palabra mas larga")
 print("")
-op= input("Ingrese Opcion")
+op= input("Ingrese Opcion: ")
 print("")
 
 lista = []
